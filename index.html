@@ -3,13 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet">
+    <link rel="preload" href="styles.css" as="style"> 
+    <link href="styles.css" rel="stylesheet">
+    
+
     <title>Practica</title>
 </head>
 
 <body>
     <header>
-        <h1>PinkiPromised</h1>
+        <h1 class="titulo">PinkiPromised <span>DiseñoWeb</span></h1>
     </header>
 
     <nav>
@@ -84,6 +90,39 @@
      <section>
 
         <h2>Contacto</h2>
+        
+        <form>
+
+            <fieldset>
+                <legend>Contactame llenando los siguientes datos</legend>
+
+                <div>
+                    <label>Nombre</label>
+                    <input type="text" placeholder="Nombre">
+                </div>
+
+                <div>
+                    <label>Telefono</label>
+                    <input type="tel" placeholder="Telefono">
+                </div>
+
+                <div>
+                    <label>Correo</label>
+                    <input type="email" placeholder="Email">
+                </div>
+
+                <div>
+                    <label>Mensaje</label>
+                    <textarea placeholder="Cuentanos tus dudas"></textarea>    
+                </div>
+                
+                <div>
+                    <input type="submit" valor="Enviar"> 
+                </div>
+                
+            </fieldset>
+
+        </form>
 
      </section>
 
